@@ -1,11 +1,11 @@
-# sqlite-spring-boot-start
+# sqlite-spring-boot-starter
 
 Integrate SQLite into Spring Boot by a starter way, which is auto-configured. You can use SQLite out of box through JPA
 like other data source.
 
 ## Usage
 
-1. Declare dependency on `sqlite-spring-boot-start` in your build tool metadata file. For example, Maven is shown below:
+1. Declare dependency on `sqlite-spring-boot-starter` in your build tool metadata file. For example, Maven is shown below:
 
 ```xml
 
@@ -28,7 +28,7 @@ sqlite.file=<todo: specify yours>
 
 ## Configuration
 
-`sqlite-spring-boot-start` supported configurations list below:
+`sqlite-spring-boot-starter` supported configurations list below:
 
 - sqlite.user  
   User for sqlite, if be not configured explicitly, use "_**sqliteAnonymousUser**_" as default
