@@ -19,8 +19,6 @@ like other data source.
 2. Change some configuration to satisfy you scene
 
 ```properties
-sqlite.user=<todo: specify yours>
-sqlite.password=<todo: specify yours>
 sqlite.file=<todo: specify yours>
 ```
 
@@ -29,12 +27,6 @@ sqlite.file=<todo: specify yours>
 ## Configuration
 
 `sqlite-spring-boot-starter` supported configurations list below:
-
-- sqlite.user  
-  User for sqlite, if be not configured explicitly, use "_**sqliteAnonymousUser**_" as default
-
-- sqlite.password  
-  Password for sqlite, if be not configured explicitly, use "_**sqliteAnonymousUserPasswd**_" as default
 
 - sqlite.file  
   Location of sqlite file, if `sqlite.url` and `sqlite.file` are not configured explicitly, use "_**sqlite_default.db**_" as default filename which in program work directory.
